@@ -1,0 +1,153 @@
+@media (min-width: 991px) and (max-width: 1279px) {
+    .navbar-brand img {
+        display: inline-block;
+        width: 300px;
+        height: 90px;
+    }
+
+    .navbar-nav .nav-item {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 10px;
+        padding-right: 10px;    
+        font-size: 20px;
+        line-height: 45px;
+        font-weight: 200;
+        font-family: 'Montserrat';
+        transition: 0.5s;
+    }
+    
+    .nav-item:hover {
+        font-size: 25px;
+        border: 1px solid white;
+    }
+
+    .navbar-bg {
+        background-color: black;
+    }
+
+    .heading {
+        color: white;
+        font-size: 70px;
+        font-weight: 300;
+        font-family: 'Montserrat';
+    }
+    
+    .special {
+        color: white;
+        font-size: 110px;
+        font-weight: 700;
+        font-family: 'Montserrat';
+    }
+
+    .partOne {
+        position: absolute;
+        top: 50%;
+        left: 90%;
+        transform: translate(-90%, -50%);
+        width: 220px;
+        height: 505px;
+        z-index: 2;
+    }
+    
+    .partTwo {
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        transform: translate(-15%, -50%);
+        width: 135px;
+        height: 454px;
+    }
+
+    .aboutHeading {
+        font-size: 60px;
+        padding-bottom: 25px;
+    }
+    
+    .line {
+        border-top: 10px solid #2274F8;
+        width: 250px;
+    }
+    
+    .desc {
+        padding-top: 20px;
+        color: black;
+        font-size: 30px;
+        font-weight: 200;
+        font-family: 'Montserrat';
+    }
+
+    .sectionTwo {
+        padding-top: 5%;
+        margin-top: -20%;
+    }
+
+    .sectionTwo ul li a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Montserrat';
+        font-size: 30px;
+        font-weight: 200;
+    }
+
+    .temp {
+        padding-right: 7%;
+        padding-left: 7%;
+    }
+
+    .imageContent {
+        content: url(Images/anonPartTwo.png);
+        width: 405px;
+        height: 793px;
+        padding-left: 10%;
+    }
+
+    .imageTextContent {
+        font-family: 'Montserrat';
+        font-weight: 200;
+        font-size: 30px;
+        padding-top: 5%;
+        width: 100%;
+    }
+
+    .faqTitle h1 {
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 40px;
+    }
+
+    .faqTitle hr {
+        border-top: 5px solid #2274F8;
+        width: 60%;
+    }
+
+    .card-title {
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .card-text {
+        font-family: 'Montserrat';
+        font-weight: 200;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .form-control {
+        border: none !important;
+        outline: none !important;
+        border-bottom: 1px solid gray !important;
+        font-family: 'Montserrat';
+        font-size: 20px !important;
+        font-weight: 350 !important;
+    }
+
+    .end {
+        color: white;
+        font-family: 'Montserrat';
+        font-weight: 200;
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,212 @@
+@media (min-width: 319px) and (max-width: 567px) {
+    .navbar-brand img {
+        display: inline-block;
+        width: 200px;
+        height: 60px;
+    }
+
+    .navbar-nav .nav-item {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 10px;
+        padding-right: 10px;    
+        font-size: 15px;
+        line-height: 45px;
+        font-weight: 200;
+        font-family: 'Montserrat';
+        transition: 0.5s;
+    }
+    
+    .nav-item:hover {
+        font-size: 20px;
+        border: 1px solid white;
+    }
+
+    .navbar-bg {
+        background-color: black;
+    }
+
+    .heading {
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: 'Montserrat';
+    }
+    
+    .special {
+        color: white;
+        font-size: 60px;
+        font-weight: 700;
+        font-family: 'Montserrat';
+    }
+
+    .partOne {
+        position: absolute;
+        top: 70%;
+        left: 69%;
+        transform: translate(-69%, -70%);
+        width: 150px;
+        height: 344px;
+        z-index: 2;
+    }
+    
+    .partTwo {
+        position: absolute;
+        top: 72%;
+        left: 31%;
+        transform: translate(-31%, -72%);
+        width: 85px;
+        height: 285px;
+    }
+
+    #about {
+        padding-top: 100px;
+    }
+
+    #features {
+        padding-top: 100px;
+    }
+
+    #contact {
+        padding-top: 100px;
+    }
+
+    .contentTwo {
+        position: relative;
+        height: 50vh;
+        /* border: 2px solid red; */
+    }
+
+    .aboutHeading {
+        font-size: 35px;
+        padding-bottom: 15px;
+    }
+
+    .about {
+        position: absolute;
+        top: 0%;
+        left: 20%;
+        transform: translate(-20%, -0%);
+        width: 200px;
+        height: 397px;
+        z-index: 2;
+    }
+    
+    .aboutTwo {
+        position: absolute;
+        top: 0%;
+        left: 75%;
+        transform: translate(-75%, -0%);
+        width: 200px;
+        height: 397px;
+    }
+    
+    .line {
+        border-top: 10px solid #2274F8;
+        width: 150px;
+    }
+    
+    .desc {
+        padding-top: 10px;
+        color: black;
+        font-size: 20px;
+        font-weight: 200;
+        font-family: 'Montserrat';
+    }
+
+    .imageContent {
+        text-align: center;
+        content: url(Images/anonPartTwo.png);
+        width: 200px;
+        height: 397px;
+        padding-left: 10%;
+    }
+
+    .imageTextContent {
+        font-family: 'Montserrat';
+        font-weight: 200;
+        font-size: 20px;
+        padding-bottom: 50px;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .temp {
+        padding-right: 0.5%;
+        padding-left: 5%;
+    }
+
+    .sectionTwo {
+        width: fit-content;
+        margin-top: -30%;
+    }
+
+    .sectionTwo ul {
+        list-style: none;
+        font-family: 'Montserrat';
+        width: fit-content;
+    }
+    
+    .sectionTwo ul li {
+        padding-bottom: 20px;
+        width: fit-content;
+    }
+
+    .sectionTwo ul li a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Montserrat';
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    .faqTitle h1 {
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    .faqTitle hr {
+        border-top: 5px solid #2274F8;
+        width: 80%;
+    }
+
+    .card-title {
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .card-text {
+        font-family: 'Montserrat';
+        font-weight: 200;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .form-control {
+        border: none !important;
+        outline: none !important;
+        border-bottom: 1px solid gray !important;
+        font-family: 'Montserrat';
+        font-size: 15px !important;
+        font-weight: 350 !important;
+    }
+
+    form {
+        padding-top: 0px;
+    }
+
+    .buttonTemp {
+        padding-top: 0px;
+    }
+
+    .end {
+        color: white;
+        font-family: 'Montserrat';
+        font-weight: 200;
+        font-size: 30px;
+    }
+}

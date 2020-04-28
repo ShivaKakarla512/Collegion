@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Collegion</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+    <link rel="stylesheet" href="screenSize2560andUp.css">
+    <link rel="stylesheet" href="screenSize1440to1680.css">
+    <link rel="stylesheet" href="screenSize1280to1440.css">
+    <link rel="stylesheet" href="screenSize992to1280.css">
+    <link rel="stylesheet" href="screenSize768to992.css">
+    <link rel="stylesheet" href="screenSizeUpTo568.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-bg fixed-top ">
+            <div class="mx-auto order-0" style="padding-left: 10px;">
+                <a class="navbar-brand mx-0" href="#home">
+                    <img src="Images/logo.png" alt="logo">
+                </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse w-100 order-3" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+      
+        <!-- Full Page Image Header with Vertically Centered Content -->
+        <header data-aos="fade-in" class="masthead">
+            <div id="home" class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div data-aos="fade-right" data-aos-duration="1000" class="col-lg-7">
+                    <h1 class="heading">Welcome to <span class="special">Collegion</span>.</h1>
+                </div>
+
+                <div data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000" class="content col-lg-5 text-center">
+                    <img src="Images/imgOnePartOne.png" class="partOne">
+                    <img src="Images/imgOnePartTwo.png" class="partTwo">
+                </div>
+            </div>
+            </div>
+        </header>
+      
+        <!-- Page Content -->
+        <section>
+            <div id="about" class="container h-100">
+                <div class="row h-100 align-items-center"> 
+                    <div class="col-lg-6 title">
+                        <h1 data-aos="fade-up" class="aboutHeading">About</h1>
+                        <hr class="line" width="250px" align="left"> 
+                        <p data-aos="fade-down" data-aos-delay="500" class="desc">A new way to communicate with fellow students, club members, study groups, and much more!</p>
+                    </div>
+        
+                    <div data-aos="fade-right" data-aos-delay="1000" class="contentTwo col-lg-6 sub">
+                        <img src="Images/aboutTwoPartTwo.png" class="about">
+                        <img src="Images/aboutPartTwo.png" class="aboutTwo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="features" class="container h-100">
+                <h1 data-aos="fade-up" class="aboutHeading">Features</h1>
+                <hr class="line" width="300px" align="left"> 
+
+                <div class="sectionTwo row h-100 align-items-center">
+                    <div class="text-left temp">
+                        <ul data-aos="fade-down" data-aos-delay="500" class="list">
+                            <li >
+                                <a onclick="switchImage()" href="#share-button">Anonymous Mode</a>
+                            </li >
+                            <li>
+                                <a onclick="switchImage1()" href="#follow-button">Message Replying</a>
+                            </li>
+                            <li>
+                                <a onclick="switchImage2()" href="#link-button">Searchability</a>
+                            </li>
+                            <li>
+                                <a onclick="switchImage3()" href="#list-button">Full Control</a>
+                            </li>
+                            <li>
+                                <a onclick="switchImage4()" href="#related-button">Interactive UI</a>
+                            </li>
+                        </ul>
+                    </div> 
+
+                    <div data-aos="fade-right" data-aos-delay="1000" class="image text-center"> 
+                        <img class="imageContent">
+                    </div>
+
+                    <div data-aos="fade-right" data-aos-delay="1300" id="foo" class="imageTextContent text-left">
+                        We value your privacy above all, with the touch of a button, anonymity is yours!
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="contact" class="container h-100">
+                <div class="row h-100 align-items-center"> 
+                    <div class="col-lg-6 title">
+                        <h1 data-aos="fade-up" class="aboutHeading">Contact</h1>
+                        <hr class="line" width="300px" align="left"> 
+                        <p data-aos="fade-down" data-aos-delay="500" class="desc">Questions? Comments? Concerns? Anything it is, let us know!</p>
+                    </div>
+        
+                    <div data-aos="fade-right" data-aos-delay="1000" class="text-center col-lg-6 sub">
+                        <form id="contact-form" method="post" action="server.php">
+                            <input name="name" type="text" class="form-control" placeholder="Name" required>
+                            <br>
+                            <input name="email" type="email" class="form-control" placeholder="Email address" required>
+                            <br>
+                            <textarea style="height:200px;" name="message" class="form-control" placeholder="Go ahead, we're listening..." required></textarea>
+                            <br>
+                            <div class="buttonTemp text-center">
+                                <button id="singlebutton" name="singlebutton" class="submit">SEND MESSAGE</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="container faq text-center"> 
+
+                    <div class="container faqTitle">
+                        <h1 data-aos="fade-up">Frequently Asked Questions</h1>
+                        <hr>
+                    </div>
+
+                    <div class="card-columns">
+                        <div class="card" data-aos="fade-down" data-aos-delay="500">
+                            <div id="hover" class="card-body text-center">
+                                <h4 class="card-title">Question</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut consequat tortor.</p>
+                            </div>
+                        </div>
+
+                        <div class="card" data-aos="fade-down" data-aos-delay="500">
+                            <div id="hover" class="card-body text-center">
+                                <h4 class="card-title">Question</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut consequat tortor.</p>
+                            </div>
+                        </div>
+
+                        <div class="card" data-aos="fade-down" data-aos-delay="500">
+                            <div id="hover" class="card-body text-center">
+                                <h4 class="card-title">Question</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut consequat tortor.</p>
+                            </div>
+                        </div>
+
+                        <div class="card" data-aos="fade-down" data-aos-delay="500">
+                            <div id="hover" class="card-body text-center">
+                                <h4 class="card-title">Question</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut consequat tortor.</p>
+                            </div>
+                        </div>
+
+                        <div class="card" data-aos="fade-down" data-aos-delay="500">
+                            <div id="hover" class="card-body text-center">
+                                <h4 class="card-title">Question</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut consequat tortor.</p>
+                            </div>
+                        </div>
+
+                        <div class="card" data-aos="fade-down" data-aos-delay="500">
+                            <div id="hover" class="card-body text-center">
+                                <h4 class="card-title">Question</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut consequat tortor.</p>
+                            </div>
+                        </div>
+   
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="jumbotron text-center bg-dark" style="margin-bottom:0; background: no-repeat center url(Images/Background.png); border-radius: 0%; background-size: cover;">
+                <div class="align-items-center" style="display:inline;">
+                    <div class="text-center">
+                        <h1 class="end">Follow Us!</h1>
+                        <a href="https://www.instagram.com/collegionapp/" target="_blank">
+                            <img class="footerOneImage"/>
+                        </a>
+                        <a href="https://twitter.com/collegionapp" target="_blank"> 
+                            <img class="footerTwoImage"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+
+            // You can also pass an optional settings object
+            // below listed default settings
+            AOS.init({
+                // Global settings:
+                disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+                startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+                initClassName: 'aos-init', // class applied after initialization
+                animatedClassName: 'aos-animate', // class applied on animation
+                useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+                disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+                debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+                throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+                
+
+                // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+                offset: 120, // offset (in px) from the original trigger point
+                delay: 0, // values from 0 to 3000, with step 50ms
+                duration: 800, // values from 0 to 3000, with step 50ms
+                easing: 'ease', // default easing for AOS animations
+                once: false, // whether animation should happen only once - while scrolling down
+                mirror: false, // whether elements should animate out while scrolling past them
+                anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+            }); 
+        </script>
+    </body>
+</html>
+
